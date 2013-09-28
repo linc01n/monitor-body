@@ -49,3 +49,5 @@ end
 group :development do
   gem 'pry'
 end
+
+gem 'figaro'
