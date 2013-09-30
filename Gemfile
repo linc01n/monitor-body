@@ -52,3 +52,9 @@ gem 'figaro'
 
 # Auth plugin
 gem 'devise'
+
+# Audit trail
+gem 'paper_trail'
+
+# Admin interface
+gem 'rails_admin'
