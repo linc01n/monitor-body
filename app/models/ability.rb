@@ -28,5 +28,11 @@ class Ability
     #
     # See the wiki for details:
     # https://github.com/ryanb/cancan/wiki/Defining-Abilities
+
+    if user and user.admin?
+      can :access, :rails_admin       # only allow admin users to access Rails Admin
+      can :dashboard                  # allow access to dashboard
+      can :manage, :all
+    end
   end
 end
