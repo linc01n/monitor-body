@@ -54,7 +54,7 @@ gem 'figaro'
 gem 'devise'
 
 # Audit trail
-gem 'paper_trail'
+gem 'paper_trail', '>= 3.0.0.beta1'
 
 # Admin interface
 gem 'rails_admin'
