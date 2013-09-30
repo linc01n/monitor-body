@@ -52,6 +52,7 @@ gem 'figaro'
 
 # Auth plugin
 gem 'devise'
+gem 'cancan'
 
 # Audit trail
 gem 'paper_trail', '>= 3.0.0.beta1'
