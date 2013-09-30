@@ -49,6 +49,10 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
+  gem 'peek'
+  gem 'peek-gc'
+  gem 'peek-git'
+  gem 'peek-performance_bar'
 end
 
 # ENV management
