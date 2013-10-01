@@ -49,10 +49,6 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
-  gem 'peek'
-  gem 'peek-gc'
-  gem 'peek-git'
-  gem 'peek-performance_bar'
   gem 'sqlite3'
 end
 
@@ -73,3 +69,9 @@ gem 'paper_trail', '>= 3.0.0.beta1'
 
 # Admin interface
 gem 'rails_admin'
+
+# Peek bar
+gem 'peek'
+gem 'peek-gc'
+gem 'peek-git'
+gem 'peek-performance_bar'
