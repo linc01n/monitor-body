@@ -75,3 +75,6 @@ gem 'peek'
 gem 'peek-gc'
 gem 'peek-git'
 gem 'peek-performance_bar'
+
+# Template
+gem 'haml'
