@@ -1,4 +1,6 @@
 MonitorBody::Application.routes.draw do
+  resources :weights
+
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
   mount Peek::Railtie => '/peek'
   devise_for :users
