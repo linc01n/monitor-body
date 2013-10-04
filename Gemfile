@@ -77,4 +77,4 @@ gem 'peek-git'
 gem 'peek-performance_bar'
 
 # Template
-gem 'haml'
+gem 'haml-rails'
