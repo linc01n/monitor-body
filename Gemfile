@@ -78,3 +78,6 @@ gem 'peek-performance_bar'
 
 # Template
 gem 'haml-rails'
+
+# Testing
+gem 'rspec'
