@@ -7,4 +7,5 @@ class User < ActiveRecord::Base
   has_paper_trail
 
   has_many :weights
+  has_many :heights
 end

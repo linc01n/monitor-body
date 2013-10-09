@@ -1,4 +1,6 @@
 MonitorBody::Application.routes.draw do
+  resources :heights
+
   resources :weights
 
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
